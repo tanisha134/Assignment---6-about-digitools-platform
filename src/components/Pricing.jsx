@@ -110,7 +110,7 @@ export default function Pricing() {
                     $99<span className="text-[16px] font-normal text-[#627382]">/month</span>
                 </h2>
 
-                <ul lassName="mt-4 space-y-2 text-sm text-[#627382]">
+                <ul className="mt-4 space-y-2 text-sm text-[#627382]">
                     <li className="flex items-center gap-2">
                         <IoMdCheckmark className="text-green-500" />
 
