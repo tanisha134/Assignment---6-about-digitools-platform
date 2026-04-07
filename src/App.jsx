@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner"
 import Stats from "./components/Stats" 
 import Products from "./components/Products" 
+import Steps from "./components/Steps" 
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Banner />
     <Stats/>
     <Products cart={cart} setCart={setCart}/>
+    <Steps/>
     <ToastContainer/>
     </>
   );
